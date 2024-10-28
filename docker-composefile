@@ -1,0 +1,9 @@
+version: "3.8" #Make sure to specify the version as a string
+
+
+services:
+  web:
+    build:
+    container_name: "web"
+    ports:
+      - "8080:80"
